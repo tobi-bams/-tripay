@@ -1,0 +1,1299 @@
+* {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 14vh;
+    padding: 0 5em;
+}
+
+header h2 {
+    font-size: 1.7rem;
+    color: #3C50E0;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 2em;
+}
+
+nav ul li a {
+    color: #848484;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.activeLink {
+    color: #3C50E0; 
+}
+
+.navbutton {
+    display: flex;
+    align-items: center;
+    margin-left: 8em;
+}
+
+.login {
+    color: #3C50E0;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.signup {
+    color: white;
+    background-color: #3C50E0;
+    border: none;
+    margin-left: 3em;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 3.7rem;
+    width: 8.5rem;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+main {
+    padding: 0 5em;
+    width: 100%
+}
+
+.herosection {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 46.875em;
+}
+
+.introText {
+    width: 50%;
+    background-color: #F3F4FF;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 4em;
+}
+
+.introText h1 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 3.4rem;
+}
+
+.introText p {
+    color: #363D70;
+    font-size: 1.25rem;
+}
+
+.introText button {
+    color: white;
+    background-color: #3C50E0;
+    height: 4em;
+    width: 13rem;
+    border-radius: 1em;
+    border: none;
+    margin-top: 2em;
+}
+
+.displaySection {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    height: 100%;
+    background-color: #3C50E0;
+    border-radius: 0px 10px 10px 0px;
+    padding: 0 4em;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.display1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    padding-top: 6em;
+}
+
+.display2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding-top: 3em;
+}
+
+.display3 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 5em;
+}
+
+.smallIncomeCard {
+    display: flex;
+    flex-direction: column;
+    height: 12em;
+    width: 9.1em;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    filter: drop-shadow(0px 10px 110px rgba(0, 0, 0, 0.2));
+    background: linear-gradient(151.37deg, #7E54EC -0.02%, rgba(165, 135, 255, 0) 100.02%);
+    padding: 1em;
+    border-radius: 1em;
+    margin-right: 4em;
+}
+
+.smallIncomeupperContainer {
+    display: flex;
+    align-items: center;
+}
+
+.smallArrowDownContainer {
+    height: 2.3em;
+    width: 2.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(171, 146, 226, 0.3);
+    border-radius: 50%;
+    margin-right: 0.7em;
+}
+
+.smallIncomeText {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.smallIncome {
+    font-size: 0.68rem;
+}
+
+.smallIncomelowerContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.5em;
+    color: white;
+}
+
+.smallCardDetails {
+    display: flex;
+    align-items: center;
+}
+
+.smallIncomeValue {
+    font-size: 1.1rem;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.smallStarts {
+    display: flex;
+    align-items: center;
+}
+
+.smallstar {
+    margin-right: 0.2em;
+}
+
+.smallCardDetailsValue {
+    font-size: 0.6rem;
+    font-weight: 500;
+    margin-left: 0.4em;
+}
+
+.smallIncomelowerMainValue {
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+}
+
+.applePlayContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    box-shadow: -55px 55px 73px rgba(0, 0, 0, 0.03);
+    border-radius: 12px;
+    height: 3.9em;
+    width: 15.6em;
+    padding: 0em 0.8em 0 1em;
+}
+
+.applePayDetailContainer {
+    display: flex;
+    align-items: center;
+}
+
+.appleLogoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.6em;
+    width: 2.6em;
+    border-radius: 50%;
+    margin-right: 1em;
+    box-shadow: 0px 14px 36px rgba(0, 0, 0, 0.06)
+}
+
+.applePayDetail {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5em;
+}
+
+.brandName {
+    font-size: 0.75rem;
+    color: #131D34;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+
+.typeOfCard {
+    color: #989898;
+    font-size: 0.65rem;
+}
+
+.applePayAmount {
+    color: #FF3D12;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    font-size: 0.7rem;
+}
+
+.bigCardContainer {
+    display: flex;
+    flex-direction: column;
+    height: 18.75em;
+    width: 14.375em;
+    background-color: #8C99F9;
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1em;
+    padding: 1.2em;
+}
+
+.bigCardUpperContainer {
+    display: flex;
+}
+
+.bigCardArrowContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.75em;
+    width: 3.75em;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 1em;
+}
+
+.bigCardArrow {
+    height: 10.1em;
+    width: 1.1em;
+}
+
+.bigCardDetailContainer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.bigCardIncomeTitle {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.bigCardIncomeValue {
+    font-weight: 500;
+    font-size: 1.75rem;
+    letter-spacing: -0.03em;
+}
+
+.bigCardLowwerContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.bigCardDetails {
+    display: flex;
+    align-items: center;
+}
+
+.bigCardStarContainer {
+    display: flex;
+    align-items: center;
+}
+
+.bigStar {
+    height: 8.37px;
+    width: 8.37px;
+    margin-right: 0.2em;
+}
+
+.bigCardDetails p {
+    font-weight: 500;
+    color: white;
+    font-size: 1.125rem;
+}
+
+.bigCardActualAmount{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+}
+
+.graphContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6em;
+    
+}
+
+.graph {
+    margin-left: -2em;
+}
+
+
+.darkcardContainer {
+    height: 13.4em;
+    width: 10.62em;
+    background-color: #0C1229;;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.darkCardUpperContainer {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+.imageConatiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.25em;
+    width: 2.25em;
+    border-radius: 7px;
+    background-color: #E60B8A;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+    margin-right: 0.8em;
+}
+
+.darkCardDetail {
+    display: flex;
+    flex-direction: column;
+}
+
+.dateContainer {
+    color:white;
+    font-size: 0.6rem;
+}
+
+.darkCardDateValue {
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.darkCardLowerContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.darkCardDetails {
+    display: flex;
+    align-items: center;
+}
+
+.darkCardStars {
+    display: flex;
+    align-items: center;
+}
+
+.darkStar {
+    margin-right: 0.2em;
+}
+
+.darkCardDetails p {
+    color: white;
+    font-size: 0.7rem;
+    margin-left: 0.4em;
+}
+
+.darkCardActualAmount {
+    font-family: 'Roboto';
+    font-size: 1.6rem;
+    color: white;
+}
+
+/* Work Section */
+.workContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 5em 6em;
+}
+
+.workIntroContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.workIntroContainer h2 {
+    font-weight: 600;
+    color: black;
+    font-size: 3rem;
+}
+
+.workIntroContainer p {
+    font-size: 1.125rem;
+    color: #6C6C6C;
+    letter-spacing: 0.015em;
+}
+
+.workIllustratorContainer {
+    margin-top: 6em;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 66em;
+    padding-bottom: 3em;
+    border-bottom: 1.5px solid #F0F0F0;
+}
+
+.springImageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: -1.38em;
+    z-index: -1;
+    margin-left: -3em;
+}
+
+
+.informationContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dataContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newCardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.informationIllustrator {
+    display: flex;
+    flex-direction: column;
+}
+
+.informationStructure {
+    height: 6.21em;
+    width: 10.5em;
+    padding: 1.5em;
+    background: #FFFFFF;
+    box-shadow: 10px 22px 40px rgba(0, 0, 0, 0.03);
+    border-radius: 20px 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.structure1 {
+    height: 0.375em;
+    width: 4.83em;
+    background-color: #E4E4E4;
+    border-radius: 10px;
+    margin-bottom: 0.5em;
+}
+
+.structure2 {
+    height: 0.375em;
+    width: 7.098em;
+    background-color: #E4E4E4;
+    border-radius: 10px; 
+    margin-bottom: 0.5em;
+}
+
+.structure3 {
+    height: 0.375em;
+    width: 3.15em;
+    background-color: #E4E4E4;
+    border-radius: 10px; 
+    margin-bottom: 0.5em;
+}
+
+.structure4 {
+    height: 0.375em;
+    width: 4.83em;
+    background-color: #E4E4E4;
+    border-radius: 10px; 
+}
+
+.informationAdd {
+    height: 3.36em;
+    width: 10.37em;
+    background-color: #3C50E0;
+    box-shadow: 0px 20px 50px rgba(60, 80, 224, 0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 1.2em;
+    margin-top: 1em;
+}
+
+.informationLogoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 1.97em;
+    width: 1.97em;
+    box-shadow: 6px 10px 30px rgba(36, 54, 186, 0.6);
+    border-radius: 8px;
+}
+
+.informaionLine {
+    height: 0.375em;
+    width: 5.46em;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 1em;
+}
+
+.dataIllustratorContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 1.8em;
+}
+
+.dataIllustrator {
+    height: 8.496em;
+    width: 10.669em;
+    background-color: #FFFFFF;
+    box-shadow: 10px 12px 40px rgba(26, 29, 46, 0.03);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2em;
+}
+
+.bar1 {
+    height: 3.95em;
+    width: 1.26em;
+    background: #3C50E0;
+    border-radius: 3px;
+    align-self: flex-end;  
+}
+.bar2 {
+    height: 1.06em;
+    width: 1.26em;
+    background: #3C50E0;
+    border-radius: 3px; 
+    align-self: flex-end;   
+}
+
+.bar3 {
+    height: 4.9em;
+    width: 1.26em;
+    background: #3C50E0;
+    border-radius: 3px;
+    align-self: flex-end;    
+}
+
+.bar4 {
+    height: 2.489em;
+    width: 1.26em;
+    background: #3C50E0;
+    border-radius: 3px; 
+    align-self: flex-end;   
+}
+
+.bar5 {
+    height: 2.88em;
+    width: 1.26em;
+    background: #3C50E0;
+    border-radius: 3px; 
+    align-self: flex-end;   
+}
+
+.secureContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.95em;
+    width: 3.95em;
+    border-radius: 12px;
+    background: #FFFFFF;
+    box-shadow: -25px 30px 50px rgba(0, 0, 0, 0.08);
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -1.975em;
+    margin-right: -1.975em;
+}
+
+.secureLogoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.29em;
+    width: 2.29em;
+    border-radius: 50%;
+    background-color: #FF6C9E;
+}
+
+.addCardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.addBlueCardContainer {
+    display: flex;
+    flex-direction: column;
+    height: 9.88em;
+    width: 7.57em;
+    background-color: #8C99F9;
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1em;
+    padding: 0.6em;
+}
+
+.addBlueCardUpperContainer {
+    display: flex;
+}
+
+.addBlueCardArrowContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 1em;
+}
+
+.addBlueCardDetailContainer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.addBlueCardIncomeTitle {
+    font-weight: 500;
+    font-size: 0.59rem;
+}
+
+.addBlueCardIncomeValue {
+    font-weight: 500;
+    font-size: 0.92rem;
+    font-family: 'Roboto';
+}
+
+.addBlueCardLowwerContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.addBlueCardDetails {
+    display: flex;
+    align-items: center;
+}
+
+.addBlueCardStarContainer {
+    display: flex;
+    align-items: center;
+}
+
+.addBlueCardDetails p {
+    font-weight: 500;
+    color: white;
+    font-size: 0.59rem;
+    margin-left: 0.5em;
+}
+
+.addBlueCardActualAmount{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.addCardTextContainer {
+    height: 2.56em;
+    width: 6.31em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.04);
+    background-color: white;
+    position: absolute;
+    left: 0;
+    margin-left: -4em;
+    margin-top: -0.6em;
+}
+
+.addCardTextContainer p {
+    font-size: 0.875rem;
+    color: #515151;
+    letter-spacing: -0.01em;
+}
+
+.workTextContainer {
+    margin-top: 5em;
+    text-align: center;
+}
+
+.workTextContainer h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 0.5em;
+}
+
+.workTextContainer p {
+    font-size: 1.125rem;
+    color: #5D8082;
+    letter-spacing: 0.015em;
+}
+
+/* Download Container */
+.downloadContainer {
+    display: flex;
+    align-items: center;
+    padding: 5em 0em;
+    width: 66em;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.downloadImageContainer {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.iphoneBody {
+    position: absolute;
+}
+
+.downloadCardContainer {
+    display: flex;
+    flex-direction: column;
+    height: 10.97em;
+    width: 8.41em;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 40px 40px 100px rgba(0, 0, 0, 0.02);
+    border-radius: 1em;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 10.6em;
+    left: 24.3em;
+    padding: 0.8em;
+}
+
+.downloadCardUpperContainer {
+    display: flex;
+}
+
+.downloadCardArrowContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 50%;
+    background-color: #F3F3F3;
+    margin-right: 1em;
+}
+
+.downloadCardDetailContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.downloadCardIncomeTitle {
+    font-size: 0.66rem;
+    color: #6C6C6C;
+}
+
+.downloadCardIncomeValue {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #121D33;
+    font-family: 'Roboto';
+}
+
+.downloadCardLowwerContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.downloadCardDetails {
+    display: flex;
+    align-items: center;
+}
+
+.downloadCardStarContainer {
+    display: flex;
+    align-items: center;
+}
+
+.blackStar {
+    margin-right: 0.2em;
+}
+
+.downloadCardDetails p {
+    font-weight: 500;
+    color: #6C6C6C;
+    font-size: 0.66rem;
+    margin-left: 0.5em;
+}
+
+.downloadCardActualAmount{
+    color: #000000;
+    font-size: 1.46rem;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+
+.downloadSmallContainer {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 4.37em;
+    width: 17.19em;
+    padding: 1em;
+    justify-content: space-between;
+    box-shadow: -31px 40px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 14px;
+    position: absolute;
+    top: 30.8em;
+    right: 12.7em;
+}
+
+.downloadSmallDetailContainer {
+    display: flex;
+    align-items: center;
+}
+
+.downloadSmallLogoContainer {
+    height: 2.87em;
+    width: 2.87em;
+    border-radius: 14px;
+    background-color: rgba(234, 11, 140, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.2em;
+}
+
+.downloadSmallDetail {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.8em;
+}
+
+.downloadBrandName {
+    font-weight: 600;
+    font-size: 0.83rem;
+    color: #131D34;
+    letter-spacing: 0.01em;
+}
+
+.downloadTypeOfCard {
+    color: #989898;
+    font-size: 0.77rem;
+}
+
+.downloadPayAmount {
+    font-weight: 500;
+    font-size: 0.77rem;
+    color: #FF2702;
+    letter-spacing: -0.03em;
+}
+
+.downLoadDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 8em;
+}
+
+.downLoadDetailsContainer h2 {
+    font-weight: 600;
+    font-size: 2.81rem;
+    color: #000000;
+    line-height: 46px;
+    margin-bottom: 1em;
+}
+
+.downloadInfoText {
+    font-size: 1.125rem;
+    color: #6C6C6C;
+    line-height: 34px;
+    letter-spacing: 0.015em;
+    margin-bottom: 2.5em;
+}
+
+.downloadLinkContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.downloadLink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.25em;
+    width: 15.125em;
+    border: 1.5px solid #B5BAE0;
+    border-radius: 25px;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.downloadLink p {
+    color: #000000;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    font-size: 1.25rem;
+}
+
+/* Connecting Section */
+.connectCardContainer {
+    display: flex;
+    align-items: center;
+    padding: 5em 0em 8em 0em;
+    width: 66em;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1.5px solid #F5F5F5;
+}
+
+.connectText {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 6em;
+}
+
+.connectText h2 {
+    font-weight: 600;
+    font-size: 2.81rem;
+    color: #000000;
+    line-height: 46px;
+    margin-bottom: 1.5em;
+}
+
+.connectText p {
+    font-size: 1.13rem;
+    color: #6C6C6C;
+    line-height: 34px;
+    letter-spacing: 0.015em;
+    margin-bottom: 2em;
+}
+
+.connectText button {
+    height: 4.38em;
+    width: 11.88em;
+    border: 1.6px solid #6C6C6C;
+    border-radius: 1em;
+    background-color: transparent;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 20px;
+    color: #151515;
+    letter-spacing: 0.04em;
+}
+
+.connectImageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 50%;
+}
+
+.connectApplePlayContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    box-shadow: -60px 60px 80px rgba(0, 0, 0, 0.03);
+    border-radius: 12px;
+    height: 4.33em;
+    width: 17.1em;
+    padding: 0em 0.8em 0 1em;
+    position: absolute;
+    top: 27.2em;
+    right: 14em;
+}
+
+.connectApplePayDetailContainer {
+    display: flex;
+    align-items: center;
+}
+
+.connectAppleLogoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.85em;
+    width: 2.85em;
+    border-radius: 14px;
+    margin-right: 1em;
+    box-shadow: 0px 14px 36px rgba(0, 0, 0, 0.06)
+}
+
+.connectApplePayDetail {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5em;
+}
+
+.connectBrandName {
+    font-size: 0.82rem;
+    color: #131D34;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+
+.connectTypeOfCard {
+    color: #989898;
+    font-size: 0.77rem;
+}
+
+.connectApplePayAmount {
+    color: #FF3D12;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    font-size: 0.77rem;
+}
+
+.newsletterContainer {
+    width: 51.75em;
+    height: 23.25em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3C50E0;
+    border-radius: 20px;
+    padding: 0 8.5em;
+    margin-top: 1em;
+}
+
+.newsletterContainer h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 50px;
+}
+
+.newsletterContainer p {
+    color: #E8E8E8;
+    font-size: 1rem;
+    letter-spacing: 0.015em;
+    text-align: center;
+    line-height: 34px;
+}
+
+.formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 38.56em;
+    height: 5.1em;
+    background-color: #FCFCFC;
+    border: 1.5px solid #F5F5F5;
+    border-radius: 1em;
+    padding: 0.2em;
+    margin-top: 1em;
+}
+
+.email {
+    border: none;
+    font-size: 1.25rem;
+    color: #989898;
+    letter-spacing: 0.04em;
+    padding-left: 2em;
+    outline: none;
+    background-color: #FCFCFC;
+}
+
+::placeholder {
+    color: #989898; 
+}
+
+.subscribe {
+    height: 4.69rem;
+    width: 12.3rem;
+    background-color: #141E6C;
+    border-radius: 1em;
+    border: none;
+    color: white;
+    font-size: 1.25rem;
+    letter-spacing: 0.04em;
+    outline: none;
+}  
+
+footer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 29.88em;
+    background-color: #3C50E0;
+    margin: 2em 5em;
+    padding: 5em 8em 2em 8em;
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tripaySUmmary {
+    display: flex;
+    flex-direction: column;
+}
+
+.tripaySUmmary h3 {
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1.75rem;
+    line-height: 25px;
+    margin-bottom: 1em;
+}
+
+.tripaySUmmary  p {
+    color: #E8E8E8;
+    font-size: 0.88rem;
+    letter-spacing: 0.015em;
+    line-height: 34px;
+}
+
+.socailsContainer {
+    display: flex;
+    margin-top: 1.5em;
+    align-items: center;
+}
+
+.socail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.78em;
+    width: 1.78em;
+    background-color: #ECECEE;
+    border-radius: 5px;
+    margin-right: 1em;
+}
+
+.tripayDetail {
+    display: flex;
+    flex-direction: column;
+}
+
+.tripayDetail h4 {
+    color: #E8E8E8;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 1.3em;
+}
+
+.tripayDetail ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.tripayDetail ul li {
+    color: #E8E8E8;
+    font-size: 1rem;
+    margin-bottom: .8em;
+}
+
+
+.copyright {
+    margin-top: 4em;
+    color: #E8E8E8;
+    letter-spacing: -0.01em;
+    font-size: 0.81rem;
+}
