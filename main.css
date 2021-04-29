@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: #FFF;
 }
 
 header {
@@ -237,6 +237,12 @@ main {
     margin-left: 0.4em;
 }
 
+.smallIcomeFigure {
+    position: absolute;
+    top: 12.6em;
+    left: 5.4em;
+}
+
 .smallIncomelowerMainValue {
     font-family: 'Roboto';
     font-size: 1.5rem;
@@ -398,6 +404,8 @@ main {
     background-color: #0C1229;;
     border-radius: 1em;
     padding: 1em;
+    position: relative;
+    overflow: hidden;
 }
 
 .darkCardUpperContainer {
@@ -466,6 +474,33 @@ main {
     font-family: 'Roboto';
     font-size: 1.6rem;
     color: white;
+}
+
+.oval1 {
+    height: 5em;
+    width: 5em;
+    background-color: #242A3E;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    position: absolute;
+    bottom: 0;
+    transform: rotate(134deg);
+    margin-bottom: -2.5em;
+    left: 3.9em;
+}
+
+.oval2 {
+    height: 5em;
+    width: 5em;
+    background-color: #242A3E;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: -2.8em;
+    transform: rotate(25deg);
+    
 }
 
 /* Work Section */
@@ -777,6 +812,18 @@ main {
     margin-left: 0.5em;
 }
 
+.addBlueCardFigure {
+    position: absolute;
+    top: 9.3em;
+    left: 4.5em;
+}
+
+.addBlueCardFigure2 {
+    position: absolute;
+    top: 2.99em;
+    left: 7.79em;
+}
+
 .addBlueCardActualAmount{
     color: white;
     font-size: 1.3rem;
@@ -918,6 +965,12 @@ main {
     color: #6C6C6C;
     font-size: 0.66rem;
     margin-left: 0.5em;
+}
+
+.downloadCardFigure {
+    position: absolute;
+    top: 8.93em;
+    left: 4.6em;
 }
 
 .downloadCardActualAmount{
