@@ -1197,6 +1197,7 @@ main {
     font-size: 0.77rem;
 }
 
+/* News Letter Section */
 .newsletterContainer {
     width: 51.75em;
     height: 23.25em;
@@ -1267,6 +1268,7 @@ main {
     outline: none;
 }  
 
+/* Footer Section */
 footer {
     display: flex;
     flex-direction: column;
@@ -1343,10 +1345,45 @@ footer {
     margin-bottom: .8em;
 }
 
-
 .copyright {
     margin-top: 4em;
     color: #E8E8E8;
     letter-spacing: -0.01em;
     font-size: 0.81rem;
+}
+
+.mobile {
+    display: none;
+}
+
+/* Mobile View */
+@media(max-width: 768px) {
+    header {
+        display: none;
+    }
+
+    main {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: #3C50E0;
+        padding: 3em;
+    }
+
+    .mobileMessage {
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+        letter-spacing: 0.05em;
+    }
 }
